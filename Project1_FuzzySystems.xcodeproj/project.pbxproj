@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BA9589A1DE2FACC000FC8E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA958991DE2FACC000FC8E4 /* AppDelegate.m */; };
+		5BA9589D1DE2FACC000FC8E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA9589C1DE2FACC000FC8E4 /* main.m */; };
+		5BA958A01DE2FACC000FC8E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA9589F1DE2FACC000FC8E4 /* ViewController.m */; };
+		5BA958A21DE2FACC000FC8E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA958A11DE2FACC000FC8E4 /* Assets.xcassets */; };
+		5BA958A51DE2FACC000FC8E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA958A31DE2FACC000FC8E4 /* Main.storyboard */; };
+		5BA958B01DE2FACC000FC8E4 /* Project1_FuzzySystemsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA958AF1DE2FACC000FC8E4 /* Project1_FuzzySystemsTests.m */; };
+		5BA958BB1DE2FACC000FC8E4 /* Project1_FuzzySystemsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA958BA1DE2FACC000FC8E4 /* Project1_FuzzySystemsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BA958AC1DE2FACC000FC8E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BA9588D1DE2FACC000FC8E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BA958941DE2FACC000FC8E4;
+			remoteInfo = Project1_FuzzySystems;
+		};
+		5BA958B71DE2FACC000FC8E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BA9588D1DE2FACC000FC8E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BA958941DE2FACC000FC8E4;
+			remoteInfo = Project1_FuzzySystems;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5BA958951DE2FACC000FC8E4 /* Project1_FuzzySystems.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project1_FuzzySystems.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BA958981DE2FACC000FC8E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5BA958991DE2FACC000FC8E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5BA9589C1DE2FACC000FC8E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BA9589E1DE2FACC000FC8E4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5BA9589F1DE2FACC000FC8E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5BA958A11DE2FACC000FC8E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BA958A41DE2FACC000FC8E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BA958A61DE2FACC000FC8E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BA958AB1DE2FACC000FC8E4 /* Project1_FuzzySystemsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project1_FuzzySystemsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BA958AF1DE2FACC000FC8E4 /* Project1_FuzzySystemsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Project1_FuzzySystemsTests.m; sourceTree = "<group>"; };
+		5BA958B11DE2FACC000FC8E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BA958B61DE2FACC000FC8E4 /* Project1_FuzzySystemsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project1_FuzzySystemsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BA958BA1DE2FACC000FC8E4 /* Project1_FuzzySystemsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Project1_FuzzySystemsUITests.m; sourceTree = "<group>"; };
+		5BA958BC1DE2FACC000FC8E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BA958921DE2FACC000FC8E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA958A81DE2FACC000FC8E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA958B31DE2FACC000FC8E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BA9588C1DE2FACC000FC8E4 = {
+			isa = PBXGroup;
+			children = (
+				5BA958971DE2FACC000FC8E4 /* Project1_FuzzySystems */,
+				5BA958AE1DE2FACC000FC8E4 /* Project1_FuzzySystemsTests */,
+				5BA958B91DE2FACC000FC8E4 /* Project1_FuzzySystemsUITests */,
+				5BA958961DE2FACC000FC8E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BA958961DE2FACC000FC8E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BA958951DE2FACC000FC8E4 /* Project1_FuzzySystems.app */,
+				5BA958AB1DE2FACC000FC8E4 /* Project1_FuzzySystemsTests.xctest */,
+				5BA958B61DE2FACC000FC8E4 /* Project1_FuzzySystemsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BA958971DE2FACC000FC8E4 /* Project1_FuzzySystems */ = {
+			isa = PBXGroup;
+			children = (
+				5BA958981DE2FACC000FC8E4 /* AppDelegate.h */,
+				5BA958991DE2FACC000FC8E4 /* AppDelegate.m */,
+				5BA9589E1DE2FACC000FC8E4 /* ViewController.h */,
+				5BA9589F1DE2FACC000FC8E4 /* ViewController.m */,
+				5BA958A11DE2FACC000FC8E4 /* Assets.xcassets */,
+				5BA958A31DE2FACC000FC8E4 /* Main.storyboard */,
+				5BA958A61DE2FACC000FC8E4 /* Info.plist */,
+				5BA9589B1DE2FACC000FC8E4 /* Supporting Files */,
+			);
+			path = Project1_FuzzySystems;
+			sourceTree = "<group>";
+		};
+		5BA9589B1DE2FACC000FC8E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BA9589C1DE2FACC000FC8E4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BA958AE1DE2FACC000FC8E4 /* Project1_FuzzySystemsTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BA958AF1DE2FACC000FC8E4 /* Project1_FuzzySystemsTests.m */,
+				5BA958B11DE2FACC000FC8E4 /* Info.plist */,
+			);
+			path = Project1_FuzzySystemsTests;
+			sourceTree = "<group>";
+		};
+		5BA958B91DE2FACC000FC8E4 /* Project1_FuzzySystemsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5BA958BA1DE2FACC000FC8E4 /* Project1_FuzzySystemsUITests.m */,
+				5BA958BC1DE2FACC000FC8E4 /* Info.plist */,
+			);
+			path = Project1_FuzzySystemsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BA958941DE2FACC000FC8E4 /* Project1_FuzzySystems */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BA958BF1DE2FACC000FC8E4 /* Build configuration list for PBXNativeTarget "Project1_FuzzySystems" */;
+			buildPhases = (
+				5BA958911DE2FACC000FC8E4 /* Sources */,
+				5BA958921DE2FACC000FC8E4 /* Frameworks */,
+				5BA958931DE2FACC000FC8E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Project1_FuzzySystems;
+			productName = Project1_FuzzySystems;
+			productReference = 5BA958951DE2FACC000FC8E4 /* Project1_FuzzySystems.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BA958AA1DE2FACC000FC8E4 /* Project1_FuzzySystemsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BA958C21DE2FACC000FC8E4 /* Build configuration list for PBXNativeTarget "Project1_FuzzySystemsTests" */;
+			buildPhases = (
+				5BA958A71DE2FACC000FC8E4 /* Sources */,
+				5BA958A81DE2FACC000FC8E4 /* Frameworks */,
+				5BA958A91DE2FACC000FC8E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BA958AD1DE2FACC000FC8E4 /* PBXTargetDependency */,
+			);
+			name = Project1_FuzzySystemsTests;
+			productName = Project1_FuzzySystemsTests;
+			productReference = 5BA958AB1DE2FACC000FC8E4 /* Project1_FuzzySystemsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5BA958B51DE2FACC000FC8E4 /* Project1_FuzzySystemsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BA958C51DE2FACC000FC8E4 /* Build configuration list for PBXNativeTarget "Project1_FuzzySystemsUITests" */;
+			buildPhases = (
+				5BA958B21DE2FACC000FC8E4 /* Sources */,
+				5BA958B31DE2FACC000FC8E4 /* Frameworks */,
+				5BA958B41DE2FACC000FC8E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BA958B81DE2FACC000FC8E4 /* PBXTargetDependency */,
+			);
+			name = Project1_FuzzySystemsUITests;
+			productName = Project1_FuzzySystemsUITests;
+			productReference = 5BA958B61DE2FACC000FC8E4 /* Project1_FuzzySystemsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BA9588D1DE2FACC000FC8E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Avrech, Colin";
+				TargetAttributes = {
+					5BA958941DE2FACC000FC8E4 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = F6XPD6277R;
+						ProvisioningStyle = Automatic;
+					};
+					5BA958AA1DE2FACC000FC8E4 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = F6XPD6277R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5BA958941DE2FACC000FC8E4;
+					};
+					5BA958B51DE2FACC000FC8E4 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = F6XPD6277R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5BA958941DE2FACC000FC8E4;
+					};
+				};
+			};
+			buildConfigurationList = 5BA958901DE2FACC000FC8E4 /* Build configuration list for PBXProject "Project1_FuzzySystems" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BA9588C1DE2FACC000FC8E4;
+			productRefGroup = 5BA958961DE2FACC000FC8E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BA958941DE2FACC000FC8E4 /* Project1_FuzzySystems */,
+				5BA958AA1DE2FACC000FC8E4 /* Project1_FuzzySystemsTests */,
+				5BA958B51DE2FACC000FC8E4 /* Project1_FuzzySystemsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BA958931DE2FACC000FC8E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA958A21DE2FACC000FC8E4 /* Assets.xcassets in Resources */,
+				5BA958A51DE2FACC000FC8E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA958A91DE2FACC000FC8E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA958B41DE2FACC000FC8E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BA958911DE2FACC000FC8E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA958A01DE2FACC000FC8E4 /* ViewController.m in Sources */,
+				5BA9589D1DE2FACC000FC8E4 /* main.m in Sources */,
+				5BA9589A1DE2FACC000FC8E4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA958A71DE2FACC000FC8E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA958B01DE2FACC000FC8E4 /* Project1_FuzzySystemsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA958B21DE2FACC000FC8E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA958BB1DE2FACC000FC8E4 /* Project1_FuzzySystemsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BA958AD1DE2FACC000FC8E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BA958941DE2FACC000FC8E4 /* Project1_FuzzySystems */;
+			targetProxy = 5BA958AC1DE2FACC000FC8E4 /* PBXContainerItemProxy */;
+		};
+		5BA958B81DE2FACC000FC8E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BA958941DE2FACC000FC8E4 /* Project1_FuzzySystems */;
+			targetProxy = 5BA958B71DE2FACC000FC8E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5BA958A31DE2FACC000FC8E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BA958A41DE2FACC000FC8E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BA958BD1DE2FACC000FC8E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5BA958BE1DE2FACC000FC8E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5BA958C01DE2FACC000FC8E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F6XPD6277R;
+				INFOPLIST_FILE = Project1_FuzzySystems/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MAT362-CBA.Project1-FuzzySystems";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5BA958C11DE2FACC000FC8E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F6XPD6277R;
+				INFOPLIST_FILE = Project1_FuzzySystems/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MAT362-CBA.Project1-FuzzySystems";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5BA958C31DE2FACC000FC8E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F6XPD6277R;
+				INFOPLIST_FILE = Project1_FuzzySystemsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MAT362-CBA.Project1-FuzzySystemsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project1_FuzzySystems.app/Contents/MacOS/Project1_FuzzySystems";
+			};
+			name = Debug;
+		};
+		5BA958C41DE2FACC000FC8E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F6XPD6277R;
+				INFOPLIST_FILE = Project1_FuzzySystemsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MAT362-CBA.Project1-FuzzySystemsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project1_FuzzySystems.app/Contents/MacOS/Project1_FuzzySystems";
+			};
+			name = Release;
+		};
+		5BA958C61DE2FACC000FC8E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F6XPD6277R;
+				INFOPLIST_FILE = Project1_FuzzySystemsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MAT362-CBA.Project1-FuzzySystemsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Project1_FuzzySystems;
+			};
+			name = Debug;
+		};
+		5BA958C71DE2FACC000FC8E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = F6XPD6277R;
+				INFOPLIST_FILE = Project1_FuzzySystemsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MAT362-CBA.Project1-FuzzySystemsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Project1_FuzzySystems;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BA958901DE2FACC000FC8E4 /* Build configuration list for PBXProject "Project1_FuzzySystems" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA958BD1DE2FACC000FC8E4 /* Debug */,
+				5BA958BE1DE2FACC000FC8E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BA958BF1DE2FACC000FC8E4 /* Build configuration list for PBXNativeTarget "Project1_FuzzySystems" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA958C01DE2FACC000FC8E4 /* Debug */,
+				5BA958C11DE2FACC000FC8E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5BA958C21DE2FACC000FC8E4 /* Build configuration list for PBXNativeTarget "Project1_FuzzySystemsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA958C31DE2FACC000FC8E4 /* Debug */,
+				5BA958C41DE2FACC000FC8E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5BA958C51DE2FACC000FC8E4 /* Build configuration list for PBXNativeTarget "Project1_FuzzySystemsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA958C61DE2FACC000FC8E4 /* Debug */,
+				5BA958C71DE2FACC000FC8E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BA9588D1DE2FACC000FC8E4 /* Project object */;
+}
