@@ -14,6 +14,7 @@
 		5BA958A51DE2FACC000FC8E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA958A31DE2FACC000FC8E4 /* Main.storyboard */; };
 		5BA958B01DE2FACC000FC8E4 /* Project1_FuzzySystemsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA958AF1DE2FACC000FC8E4 /* Project1_FuzzySystemsTests.m */; };
 		5BA958BB1DE2FACC000FC8E4 /* Project1_FuzzySystemsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA958BA1DE2FACC000FC8E4 /* Project1_FuzzySystemsUITests.m */; };
+		5BDBE4271DED13EC003EA7D7 /* CBAFuzzySystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BDBE4251DED13EC003EA7D7 /* CBAFuzzySystem.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		5BA958B61DE2FACC000FC8E4 /* Project1_FuzzySystemsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project1_FuzzySystemsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA958BA1DE2FACC000FC8E4 /* Project1_FuzzySystemsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Project1_FuzzySystemsUITests.m; sourceTree = "<group>"; };
 		5BA958BC1DE2FACC000FC8E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BDBE4251DED13EC003EA7D7 /* CBAFuzzySystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CBAFuzzySystem.cpp; sourceTree = "<group>"; };
+		5BDBE4281DED141F003EA7D7 /* CBAFuzzySystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBAFuzzySystem.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				5BA958A31DE2FACC000FC8E4 /* Main.storyboard */,
 				5BA958A61DE2FACC000FC8E4 /* Info.plist */,
 				5BA9589B1DE2FACC000FC8E4 /* Supporting Files */,
+				5BDBE4251DED13EC003EA7D7 /* CBAFuzzySystem.cpp */,
+				5BDBE4281DED141F003EA7D7 /* CBAFuzzySystem.h */,
 			);
 			path = Project1_FuzzySystems;
 			sourceTree = "<group>";
@@ -274,6 +279,7 @@
 			files = (
 				5BA958A01DE2FACC000FC8E4 /* ViewController.m in Sources */,
 				5BA9589D1DE2FACC000FC8E4 /* main.m in Sources */,
+				5BDBE4271DED13EC003EA7D7 /* CBAFuzzySystem.cpp in Sources */,
 				5BA9589A1DE2FACC000FC8E4 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +513,7 @@
 				5BA958C11DE2FACC000FC8E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BA958C21DE2FACC000FC8E4 /* Build configuration list for PBXNativeTarget "Project1_FuzzySystemsTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +522,7 @@
 				5BA958C41DE2FACC000FC8E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5BA958C51DE2FACC000FC8E4 /* Build configuration list for PBXNativeTarget "Project1_FuzzySystemsUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +531,7 @@
 				5BA958C71DE2FACC000FC8E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
